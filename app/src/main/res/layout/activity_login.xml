@@ -8,28 +8,31 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/login_user"
-        android:hint="Username"
-        android:textSize="42sp"
+        android:hint="Username..."
+        android:inputType="textEmailAddress"
+        android:textSize="18sp"
         android:layout_margin="10sp"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/login_user"
         android:id="@+id/login_pass"
-        android:hint="Password"
-        android:textSize="42sp"
+        android:hint="Password..."
+        android:inputType="textPassword"
+        android:textSize="18sp"
         android:layout_margin="10sp"/>
 
 
+    <Button
+        android:id="@+id/login_Btn"
+        android:background="@color/colorPrimaryDark"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:textAlignment="center"
+        android:text="Login"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
 
-        <TextView
-            android:background="@color/colorPrimaryDark"
-            android:layout_gravity="center"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:textSize="32sp"
-            android:textAlignment="center"
-            android:text="Login"/>
-
-    </RelativeLayout>
+</RelativeLayout>
