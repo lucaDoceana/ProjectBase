@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10sp">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10sp">
+    <RelativeLayout
+        android:id="@+id/primo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5sp"
+        android:background="@color/colorBack">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Titolo"
+        android:textSize="24sp"
+        android:id="@+id/title"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Sottotitolo"
+        android:textSize="18sp"
+        android:paddingTop="5sp"
+        android:paddingBottom="5sp"
+        android:id="@+id/subtitle"
+        android:layout_below="@+id/title"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="09/02/2017"
+        android:textSize="18sp"
+        android:paddingTop="5sp"
+        android:paddingBottom="5sp"
+        android:id="@+id/date"
+        android:layout_below="@+id/title"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum convallis urna, id ullamcorper ipsum rhoncus vitae. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec vel nulla bibendum ex iaculis dictum. Vestibulum non felis at turpis sollicitudin lacinia sed non odio. Quisque cursus erat."
+        android:textSize="20sp"
+        android:id="@+id/storia"
+        android:layout_below="@+id/subtitle"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leggi"
+        android:layout_below="@+id/storia"
+        android:layout_alignParentEnd="true"/>
+
+</RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/secondo"
+        android:layout_below="@+id/primo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8sp"
+        android:padding="5sp"
+        android:background="@color/colorBack">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Titolo"
+            android:textSize="24sp"
+            android:id="@+id/title2"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Sottotitolo"
+            android:textSize="18sp"
+            android:paddingTop="5sp"
+            android:paddingBottom="5sp"
+            android:id="@+id/subtitle2"
+            android:layout_below="@+id/title2"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="09/02/2017"
+            android:textSize="18sp"
+            android:paddingTop="5sp"
+            android:paddingBottom="5sp"
+            android:id="@+id/date2"
+            android:layout_below="@+id/title2"
+            android:layout_alignParentEnd="true"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum convallis urna, id ullamcorper ipsum rhoncus vitae. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec vel nulla bibendum ex iaculis dictum. Vestibulum non felis at turpis sollicitudin lacinia sed non odio. Quisque cursus erat."
+            android:textSize="20sp"
+            android:id="@+id/storia2"
+            android:layout_below="@+id/subtitle2"/>
+
+        <Button android:id="@+id/bottone1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Leggi"
+            android:layout_below="@+id/storia2"
+            android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+    </ScrollView>
